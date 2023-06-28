@@ -7,7 +7,7 @@ let result;
 
 if (text.length > maxLength ) {
     result = textMaxLength.concat('…');
-} else if(text.length < maxLength){
+} else{
     result = text;
 }
 
