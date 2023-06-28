@@ -1,4 +1,4 @@
-let quastion = prompt('Введите произвольный текст');
+const quastion = prompt('Введите произвольный текст');
 
 if (quastion.includes('free')){
     console.log('Это спам');
@@ -8,7 +8,7 @@ if (quastion.includes('free')){
 
 
 
-// let quastion = prompt('Введите произвольный текст');
+// const quastion = prompt('Введите произвольный текст');
 // let result;
 
 // if (quastion.includes('free')){
