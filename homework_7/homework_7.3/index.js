@@ -7,7 +7,7 @@ const quastion = (text, maxLength) => {
             return text;
         }
     }            
-    let result = quastion("12341535", 4)
+    const result = quastion("12341535", 4)
     console.log (result);
 
 // Старая задача //

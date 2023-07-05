@@ -1,6 +1,6 @@
-let maxNumber = (a,b) => a > b;  
+const maxNumber = (a,b) => a > b;  
    
-    let result = maxNumber(12,15);
+    const result = maxNumber(12,15);
     console.log (result);
 
 // Старая задача //

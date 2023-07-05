@@ -7,7 +7,7 @@ const checkWord = (str, word = "word") => {
             return "false"
         }   
     }
-    let result = checkWord(str = prompt ('Введите произвольный текст'));
+    const result = checkWord(str = prompt ('Введите произвольный текст'));
     
     console.log(result);
 
