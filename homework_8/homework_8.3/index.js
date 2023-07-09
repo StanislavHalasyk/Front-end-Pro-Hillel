@@ -1,6 +1,7 @@
 const arrayUsers =  ['user', 'user1', 'user10', 'user100', 'user1000']; 
 
 const  showMeUser = (name) => {
+    let result;
     if (name.length > 4){
         result = name;
         return name.startsWith(result);
