@@ -1,4 +1,11 @@
-const users = ['user1', 'user2', 'user3', 'user4', 'user5', 'user6'];
 
-const result = users.map(item => item.toUpperCase());
+const arr = (text) => text.split(` `);    
+
+const result = arr( "I love arrays they are my favorite") ;
+const result2 = arr ("Robin Singh"); 
+
 console.log(result);
+console.log(result2);
+
+
+
