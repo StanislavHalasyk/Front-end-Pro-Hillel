@@ -1,6 +1,6 @@
 
 
-let findAverage = [0, 1, 2, 4, 7, 10,]; 
+let findAverage = [0, 1, 2, 4, 7, 10]; 
 findAverage = findAverage.filter((item) => {return item != 0 })
 console.log(findAverage);
 
