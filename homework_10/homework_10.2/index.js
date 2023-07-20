@@ -3,10 +3,10 @@ const smaller2 = [];
 
 let numMinus = 0;
 let numZero = [];
-let newArr = [];
+let newArrOfNumbersPlus = [];
 const numberAll = (value) => {
     if(value > 0){ 
-      total = newArr.push(value);           
+      total = newArrOfNumbersPlus.push(value);           
     }else if (value < 0)
      {
       return numMinus = numMinus + value;     
@@ -18,6 +18,6 @@ const numberAll = (value) => {
 
 smaller.forEach(numberAll);
 
-console.log(newArr.length); 
+console.log(newArrOfNumbersPlus.length); 
 console.log(numMinus);
 console.log(numZero);
