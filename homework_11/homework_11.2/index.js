@@ -1,13 +1,13 @@
-let areNumbers = null;
 for (let i = 2; i <= 10; i++) {
   if (i % 2 == 0) {
-    areNumbers = i;
-    console.log(areNumbers)
+    console.log(i)
   }
 }
 
+// let isNumber = null;
 // for (let i = 2; i <= 10; i++) {
 //   if (i % 2 == 0) {
-//     console.log(i)
+//     isNumber = i;
+//     console.log(isNumber)
 //   }
 // }
