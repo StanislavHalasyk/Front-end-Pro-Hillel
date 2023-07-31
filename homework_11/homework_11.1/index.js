@@ -11,4 +11,7 @@ switch (number) {
     case 3:
         alert('Ви ввели число 2, а може й 3');
         break;
+    default:
+        alert ('Ви ввели iнше число')
+        break;        
 }
