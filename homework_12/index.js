@@ -1,7 +1,7 @@
 const btns = document.querySelectorAll(".counter__btn");  
  
 btns.forEach( btn=> {
-    btn.addEventListener('click', function () {
+    btn.addEventListener('click', function () { 
         const direction = this.dataset.direction;
         const input = this.parentElement.querySelector(".counter__value");
         const currentValue = +input.value; 
