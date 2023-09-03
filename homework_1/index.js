@@ -74,3 +74,36 @@ console.log(typeof nBoolean);   //Это у нас True
 
 
 
+
+
+// const container = document.querySelector('#data-container');
+
+// function displayData(data) {
+//     data.forEach((item) => {
+//         const listItem = document.createElement('div');
+//         listItem.innerHTML = `
+//         <p><strong>User ID:</strong> ${item.id}</p>
+//         <p><strong>Name:</strong> ${item.name}</p>
+//         `; 
+//         container.appendChild(listItem); 
+//         console.log(data)
+//     });
+// } 
+
+// // fetch('https://jsonplaceholder.typicode.com/users')
+// // .then(res => res.json())
+// // .then(data => displayData(data))
+// // .catch(e => console(e))
+
+// const fetchData = async() => {
+//     try {
+//         const response = await fetch('https://jsonplaceholder.typicode.com/users');
+//         const data = await response.json();
+//         displayData(data) ;
+//     } catch (e){
+//         console.log(e)
+//     }
+  
+// }
+
+// fetchData()
