@@ -9,7 +9,8 @@ class Person  {
 }
 
 const person = new Person("Stas","mail");
-console.log(person)
+const person2 = new Person("Oksana","female");
+console.log(person,person2)
 
 // 2-вариант //
 
@@ -37,8 +38,12 @@ class Room {
     }
 }
 const numApartment = ['Stas', 'Valera', 'Ihor'];
-let room = new Room(numApartment);
-console.log(`В квартире будет жить ${room.apartment.length} человек`)
+const numApartment2 = ['Oksana', 'Vary', 'Nastya','Nika'];
+const room = new Room(numApartment);
+const room2 = new Room(numApartment2);
+
+console.log(`В квартире будет жить ${room.apartment.length} человек`);
+console.log(`В квартире будет жить ${room2.apartment.length} человек`)
 
 /////////// 3 ///////////
 
